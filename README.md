@@ -31,7 +31,9 @@ s1.nextToken(delim)-->returns next token based on the provided delim and updates
 
 ## __How to Install?__
 
+```sh
 pip install stringtokenizer
+```
 
 **made by Tanmay Mandal**
 for any query please mail on tanmay.mandal@zohomail.in
