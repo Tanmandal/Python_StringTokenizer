@@ -1,12 +1,14 @@
+# Python String Tokenizer
+
 **This project is a python implementation of the StringTokenizer class present in java**
 
 
-__How to import ?__
+## __How to import ?__
 
 from stringtokenizer import StringTokenizer
 
 
-__How to declare object?__
+## __How to declare object?__
 
 s1=StringTokenizer(st)-->uses default delimeter set
 
@@ -15,7 +17,7 @@ s2=StringTokenizer(st,delim)-->uses provided delim set. Uses each character pres
 s3=StringTokenizer(st,delim,retdelim)-->same as no. 2 but returns delim as tokens depending on True/False of retdelim
 
 
-__Functions Contained and how to use?__
+## __Functions Contained and how to use?__
 
 s1=StringTokenizer(st)
 
@@ -27,6 +29,9 @@ s1.nextToken()-->returns next Token
 
 s1.nextToken(delim)-->returns next token based on the provided delim and updates the previously provided delim with the new ones
 
+## __How to Install?__
+
+pip install stringtokenizer
 
 **made by Tanmay Mandal**
 for any query please mail on tanmay.mandal@zohomail.in
